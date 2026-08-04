@@ -1,3 +1,4 @@
+
 // ============================================================
 // CONFIGURACIÓN DE PAYPAL PERSONAL
 // ============================================================
@@ -56,12 +57,12 @@ const PAYPAL_USER_NAME = 'DAVIDLOPEZDALOREX';
 // ============================================================
 // LISTA DE PISTAS (NOMBRES DE ARCHIVO ACTUALIZADOS)
 // ============================================================
-const LOCAL_TRACKS = [
+const LOCAL_TRACKS =
+  [
   "track1_sends_dalorex.mp3",
   "track2_free_dalorex.mp3",
   "track3_liveonthebeat_dalorex.mp3"
 ];
-
 const DEMO_TRACK = 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3';
 const LOGO_TOP_PATH = 'logo_top.png';
 
@@ -369,3 +370,4 @@ drawVisualizer();
 // INICIAR CARGA DE PISTAS
 // ============================================================
 initTracks();
+
