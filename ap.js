@@ -14,7 +14,7 @@ const PAYPAL_USER_NAME = 'DAVIDLOPEZDALOREX';
   // Asignar el enlace de PayPal automáticamente con tu usuario
   const paypalLink = document.getElementById('paypalLink');
   if (paypalLink) {
-    paypalLink.href = 'https://paypal.me/DAVIDLOPEZDALOREX';
+    paypalLink.href = 'https://paypal.me/' + PAYPAL_USER_NAME;
   }
 
   // Si ya aceptó, oculta modal
@@ -54,20 +54,20 @@ const PAYPAL_USER_NAME = 'DAVIDLOPEZDALOREX';
 })();
 
 // ============================================================
-// LISTA DE PISTAS
+// LISTA DE PISTAS (NOMBRES DE ARCHIVO ACTUALIZADOS)
 // ============================================================
 const LOCAL_TRACKS = [
   "track1_sends_dalorex.mp3",
-  "track2_raveep1_psykodelialabtekno.mp3",
+  "track2_raveep1_dalorexlabs.mp3",
   "track3_fuckwarsep_zair.mp3",
   "track4_free_dalorex.mp3",
-  "track5_velocity_pskodeliateknowaves.mp3",
-  "track6_healingfrequencys_psykodeliateknowaves.mp3",
+  "track5_velocity_dalorexlabsound.mp3",
+  "track6_healingfrequencys_dalorexlabsound.mp3",
   "track7_Cuoredirave_Valmad.mp3",
   "track8_expaciux_xailor.mp3",
-  "track9_raveep1_psykodelialabtekno.mp3",
-  "track10_Raveep1_psykodelialabtekno.mp3",
-  "track11_liveonthebeat_dalørex.mp3"
+  "track9_raveep1_dalorexlabs.mp3",
+  "track10_Raveep1_dalorexlabs.mp3",
+  "track11_liveonthebeat_dalorex.mp3"
 ];
 
 const DEMO_TRACK = 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3';
