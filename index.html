@@ -88,12 +88,15 @@
       box-shadow:0 0 15px #ff00ff88; font-size:1rem; 
     }
 
-    @media (max-width:400px) {
-      .radio-body { padding:2vh 0; }
-      .mode-btn { padding:0.3rem 0.7rem; font-size:0.65rem; }
-      .display-screen { height:60%; }
-      .logo-top-container { min-height:70px; }
-      .logo-top-container img { max-height:80px; }
+    @.logo-top-container {
+      display:flex; align-items:center; justify-content:center;
+      min-height:160px; width:100%; padding:1vh 5%; margin:0.5vh 0; z-index:15;
+    }
+    .logo-top-container img {
+      max-height:180px; width:auto; object-fit:contain;
+      filter: drop-shadow(0 0 15px rgba(255,0,255,0.5));
+    }
+
     }
   </style>
 </head>
